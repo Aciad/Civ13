@@ -1,26 +1,24 @@
-
-
 /obj/structure/machinery/bulletPress
 	name = "bullet press"
-  desc = "A machine for mass assembling bullets"
+    desc = "A machine for mass assembling bullets"
   
-  //placeholder
-  icon = 'icons/obj/machines/coinsmelter.dmi'
-  icon_state = "coinsmelter"
-  layer = 2.9 //i've no idea what this is, display layer?
-  density = "TRUE"
-  anchored = "TRUE"
-  flags = OPENCONTAINER | NOREACT
-  not_movable = FALSE
+    //placeholder
+    icon = 'icons/obj/machines/coinsmelter.dmi'
+    icon_state = "coinsmelter"
+    layer = 2.9 //i've no idea what this is, display layer?
+    density = "TRUE"
+    anchored = "TRUE"
+    flags = OPENCONTAINER | NOREACT
+    not_movable = FALSE
 	not_disassemblable = FALSE
-  on = FALSE
+    on = FALSE
   
   
-  //I change fuel to this being a powered building when I figure out how
-  var/fuel = 0
+    //I change fuel to this being a powered building when I figure out how
+    var/fuel = 0
 	var/iron = 0
 	var/copper = 0
-  var/gunpowder = 0
+    var/gunpowder = 0
 
 
 
